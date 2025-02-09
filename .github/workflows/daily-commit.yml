@@ -1,8 +1,8 @@
 name: Daily Commit
 
-on:
-  schedule:
-    - cron: '33 13 * * *'  # Runs at 2:30 PM UTC every day
+# on:
+#   schedule:
+#     - cron: '33 13 * * *'  # Runs at 2:30 PM UTC every day
 
 jobs:
   create-daily-commit:
