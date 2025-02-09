@@ -6,7 +6,7 @@ on:
     - cron: '43 13 * * *'  # Runs at 2:30 PM UTC every day
 
 jobs:
-  create-daily-commit:
+  23f1001231@ds.study.iitm.ac.in:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
