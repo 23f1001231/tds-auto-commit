@@ -6,13 +6,13 @@ on:
     - cron: '43 13 * * *'  # Runs at 2:30 PM UTC every day
 
 jobs:
-  23f1001231@ds.study.iitm.ac.in:
+  asdf:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Create daily commit (23f1001231@ds.study.iitm.ac.in)
+      - name: 23f1001231@ds.study.iitm.ac.in
         run: |
           echo "Daily update $(date)" >> daily_update.txt
        
