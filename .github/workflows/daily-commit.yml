@@ -15,5 +15,11 @@ jobs:
       - name: 23f1001231@ds.study.iitm.ac.in
         run: |
           echo "Daily update $(date)" >> daily_update.txt
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add daily_update.txt
+          git commit -m "Daily automated commit"
+          git push
+
        
 
